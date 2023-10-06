@@ -35,34 +35,11 @@ a {
 
 .navbar ul li a:hover {
   color: var(--main-color);
-
   font-weight: bolder;
-}
-
-.navbar-brand span {
-  color: white;
-  font-weight: bold;
-  font-size: 17px;
-}
-
-
-
-
-.dropdown:hover>.dropdown-menu {
-  display: block;
 
 }
 
 
-.dropdown-menu .dropdown-item {
-  color: #000;
-
-}
-
-.nav-item .dropdown .btn {
-  color: white;
-  font-weight: 600;
-}
 
 /* navbar change color while scrolling */
 #header.header-scrolled {
@@ -260,16 +237,16 @@ a {
 /* About Me */
 .about img {
   width: 100%;
-  height: 100%;
+  height: 86%;
 }
 
 .bg-black {
   background: #000;
 }
 
-.skill-block {
+/* .skill-block {
   width: 25%;
-}
+} */
 
 .skill-block1 {
   background-color: var(--main-color);
@@ -279,7 +256,7 @@ a {
   background-color: var(--bg-color);
 }
 
-@media (min-width: 991px) and (max-width:1200px) {
+/* @media (min-width: 991px) and (max-width:1200px) {
   .skill-block {
     padding: 32px !important;
   }
@@ -289,7 +266,7 @@ a {
   .skill-block {
     padding: 56px !important;
   }
-}
+} */
 
 .about {
   background: #1f242d;
